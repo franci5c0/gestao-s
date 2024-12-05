@@ -1,19 +1,21 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
 
-function App() {
-  const [count, setCount] = useState(0);
+function app() {
+  const [message, setMessage] = useState("Olá, mundo") //escreve a mensagem na tela
 
+  // let message = "olá mundo!";
   return (
-    //funciona como HTML
-    <>
-      <div className="div-primaria">
-        <h1 className="text-yellow-500">TESTANDO O REACT</h1>
-      </div>
-    </>
+    <div>
+      <h1>{message}</h1>
+      <button
+        onClick={() => {
+          setMessage("olá, fui clicado"); //mensagem que aparece ao clicar no botão
+        }}
+      >
+        mudar mensagem
+      </button>
+    </div>
   );
 }
 
-export default App;
+export default app;
