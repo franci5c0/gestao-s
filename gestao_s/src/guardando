@@ -1,0 +1,36 @@
+// import { useState } from "react";
+// import tasks from "./components/tasks";
+
+// function app() {
+//   const [message, setMessage] = useState("Olá, mundo") //escreve a mensagem na tela
+
+//   // let message = "olá mundo!";
+//   return (
+//     <div>
+//       <h1>Gerenciador de tarefas</h1>
+//     <tasks/>
+
+
+
+
+
+
+
+
+
+
+
+
+//       {/* <h1>{message}</h1>
+//       <button
+//         onClick={() => {
+//           setMessage("olá, fui clicado"); //mensagem que aparece ao clicar no botão
+//         }}
+//       >
+//         mudar mensagem
+//       </button> */}
+//     </div>
+//   );
+// }
+
+// export default app;
